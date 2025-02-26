@@ -1,0 +1,91 @@
+body{
+   display: flex;
+   font-size: 21px;
+}
+.calculator{
+      display: grid;
+      margin: auto;
+      box-shadow: 12px;
+      align-items: center;
+      justify-content: center;
+      height: 250px;
+      background-color: black;
+      border-radius: 15px;
+     
+}
+.result{
+    width: 310.5px;
+    text-align: end;
+    color:white;
+    background-color:black;
+    margin-right: 10px;
+    margin-top: 20px;
+ 
+}
+.keys{
+    display: grid;
+    font-size: 21px;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+   
+    box-shadow: 10px;
+  
+    grid-template-columns: repeat(4,1fr);
+
+    
+}
+.operator{
+    width: 80px;
+    height: 80px;
+    font-size: 21px;
+    border: 0.5px solid black;
+    border: none;
+    color: rgb(235, 235, 5);
+    background-color: rgb(72, 72, 100);
+   
+}
+.operator:hover{
+    background-color: rgb(72, 101, 172);
+    color: black;
+}
+.operator:active{
+    background-color: rgb(85, 127, 233);
+}
+.number{
+    height: 80px;
+    width: 80px;
+    font-size: 21px;
+    color: white;
+    border: 0.5px solid black;
+    border: none;
+    background-color: rgb(29, 37, 58);
+
+}
+.number:hover{
+    background-color: rgb(26, 26, 49);
+    color:rgb(12, 158, 12);
+   
+}
+.number:active{
+    border-color: rgb(65, 65, 92);
+   
+}
+.enter{
+   height: 160px;
+   font-size: 21px;
+    grid-row: 4/ span 5;
+    grid-column: 4/5;
+    border: 0.5px solid black;
+    border: none;
+    background-color: brown;
+
+}
+.enter:hover{
+    background-color: rgb(94, 19, 19);
+    color: white;
+}
+.enter:active{
+    background-color:rgb(223, 55, 55) ;
+}
+
